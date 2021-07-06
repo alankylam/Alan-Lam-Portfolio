@@ -1,0 +1,122 @@
+
+ body {
+  font-family: "Gill Sans W01 Medium","GillSans","Helvetica",sans-serif;
+  color: #6a696c;
+ }
+ li, .list-group-item {
+  font-family: "Gill Sans W01 Medium","GillSans","Helvetica",sans-serif;
+  text-transform: uppercase;
+  color: #9ea1a2;
+ }
+ p {
+   font-family: 'Merriweather', serif;
+   font-size: 13pt;
+   line-height: 20pt;
+ }
+ h1 {
+  /* font-size: 1.5em; */
+ }
+ h2 {    
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  font-family: "Gill Sans W01 Medium","GillSans","Helvetica",sans-serif;
+}
+ .intro {
+     color: black;
+     font-weight: 900;
+ }
+a {
+  color: black;
+    font-weight: bolder;
+}
+a:hover {
+    color:black;
+}
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+#hero {
+  padding: 3em;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.btn-light {
+  border-color:#dee2e6;
+}
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.8rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.list-group-item {
+  padding: .25rem 1.25rem;
+  border: none;
+}
+
+/*!
+ * About Image
+ */
+img .avatar {
+
+}		.image.avatar {
+			/* border-radius: 100%; */
+		}
+
+			.image.avatar:before {
+				display: none;
+			}
+
+			.image.avatar img {
+				/* border-radius: 100%; */
+				width: 100%;
+      }
+      
+.card-deck {
+  margin-left:0;
+  margin-right:0;
+}
